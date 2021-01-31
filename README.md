@@ -5,6 +5,9 @@
 ## Requirements
 
 ## Assumptions
+    1. Only wikipedia URLs are supported
+    2. Table Titles and subtitles are not supported
+    
 
 ## Project Folder Structure
     .

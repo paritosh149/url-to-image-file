@@ -7,4 +7,7 @@ console.log('App instance ready...')
 const url = "https://en.wikipedia.org/wiki/Long_jump";
 
 
-AppInstance.fetch(url)
+AppInstance.fetch(url).then(data => {
+    console.log('Fetched ' + data.length)
+    AppInstance.extractHtmlTables(data)
+})
